@@ -6,8 +6,8 @@ import platform
 
 # --- CONFIGURATION (À REMPLIR) ---
 SENTINEL_URL = "https://dorknetgm-sentinel.onrender.com/api/audit"
-TELEGRAM_TOKEN = "VOTRE_BOT_TOKEN_ICI"
-TELEGRAM_CHAT_ID = "VOTRE_CHAT_ID_ICI"
+TELEGRAM_TOKEN = "8462494984:AAGs7FHpV7QWsxatcKuVgaTaB9vwLHjyYww"
+TELEGRAM_CHAT_ID = "768138087"
 # --------------------------------
 
 def send_telegram_alert(message):
