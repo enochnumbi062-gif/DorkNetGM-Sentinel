@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 # --- CONFIGURATION SÉCURISÉE ---
-GEN_KEY = "AIzaSyAJGP_etVbcz7bcBISYV7gD_kmPqaIv2O4"
+GEN_KEY = ""
 genai.configure(api_key=GEN_KEY)
 
 # Initialisation du modèle STABLE uniquement
